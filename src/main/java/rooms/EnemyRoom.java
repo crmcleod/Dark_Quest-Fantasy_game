@@ -22,15 +22,18 @@ public class EnemyRoom extends Room{
     }
 
     public Boolean checkAllEnemiesDead(){
-        boolean allEnemiesDead = false;
+        int numberEnemiesAlive = 0;
         for (Enemy enemy: enemies){
-            if (enemy.checkHealth() <= 0){
-                allEnemiesDead = true;
+            if (enemy.checkHealth() > 0){
+                numberEnemiesAlive += 1;
             }
         }
-        return allEnemiesDead;
+        if (numberEnemiesAlive >0){
+            return false;}
+        else
+            {return true;}
+        }
 
-    }
 
     public Enemy getEnemyByIndex(int index){
         return enemies.get(index);

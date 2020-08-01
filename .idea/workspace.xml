@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/players/WizardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/players/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/WarlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/MagicCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/MagicCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Warlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/players/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/WarlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/game/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/game/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="players" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="JUnit.GameTest.canPlayThrough2Rooms">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Dark_Quest-Fantasy_game" />
@@ -65,25 +61,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Dark_Quest-Fantasy_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.canAddPlayableCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="game" />
+      <option name="MAIN_CLASS_NAME" value="game.GameTest" />
+      <option name="METHOD_NAME" value="canAddPlayableCharacters" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.canAddRooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rooms.*" />
+          <option name="PATTERN" value="game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
-      <option name="METHOD_NAME" value="roomCantBeUnlockedWhileEnemiesAlive" />
+      <option name="PACKAGE_NAME" value="game" />
+      <option name="MAIN_CLASS_NAME" value="game.GameTest" />
+      <option name="METHOD_NAME" value="canAddRooms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canPlayThrough2Rooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dark_Quest-Fantasy_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="game" />
+      <option name="MAIN_CLASS_NAME" value="game.GameTest" />
+      <option name="METHOD_NAME" value="canPlayThrough2Rooms" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,29 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WizardTest.canImpersonateGandalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dark_Quest-Fantasy_game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="players.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="players" />
-      <option name="MAIN_CLASS_NAME" value="players.WizardTest" />
-      <option name="METHOD_NAME" value="canImpersonateGandalf" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.canPlayThrough2Rooms" />
+        <item itemvalue="JUnit.GameTest.canAddPlayableCharacters" />
+        <item itemvalue="JUnit.GameTest.canAddRooms" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.WarlockTest.canLightRoom" />
-        <item itemvalue="JUnit.WizardTest.canImpersonateGandalf" />
-        <item itemvalue="JUnit.EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive" />
-        <item itemvalue="JUnit.All in Dark_Quest-Fantasy_game" />
       </list>
     </recent_temporary>
   </component>
@@ -166,42 +170,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596197775329" />
-    <state width="1878" height="224" key="GridCell.Tab.0.bottom" timestamp="1596298842734">
+    <state width="1878" height="224" key="GridCell.Tab.0.bottom" timestamp="1596301556806">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842734" />
+    <state width="1878" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301556806" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272448" />
-    <state width="1878" height="224" key="GridCell.Tab.0.center" timestamp="1596298842731">
+    <state width="1878" height="224" key="GridCell.Tab.0.center" timestamp="1596301556804">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="224" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842731" />
+    <state width="1878" height="224" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301556804" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="224" key="GridCell.Tab.0.left" timestamp="1596298842730">
+    <state width="1878" height="224" key="GridCell.Tab.0.left" timestamp="1596301556803">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="224" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842730" />
+    <state width="1878" height="224" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301556803" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272446" />
-    <state width="1878" height="224" key="GridCell.Tab.0.right" timestamp="1596298842733">
+    <state width="1878" height="224" key="GridCell.Tab.0.right" timestamp="1596301556805">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="224" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842733" />
+    <state width="1878" height="224" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301556805" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596290666013">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596301414229">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666013" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1596290666012">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301414229" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1596301414227">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666012" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1596290666011">
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301414227" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1596301414226">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666011" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1596290666012">
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301414226" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1596301414228">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666012" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596301414228" />
+    <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1596300306689">
+      <screen x="-1920" y="-88" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596300306689" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -210,6 +218,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/players/PlayerTest.java</url>
           <line>40</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
