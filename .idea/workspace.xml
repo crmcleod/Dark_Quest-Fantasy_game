@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/players/DwarfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/players/WizardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rooms/EnemyRoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rooms/EnemyRoomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/players/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/WarlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/MagicCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/MagicCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Warlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Wizard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/players/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/WarlockTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,27 +57,18 @@
       <recent name="players" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive">
-    <configuration name="All in Dark_Quest-Fantasy_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="Dark_Quest-Fantasy_game" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnemyRoomTest.roomCanBeUnlockedWithPickaxe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Dark_Quest-Fantasy_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rooms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
-      <option name="METHOD_NAME" value="roomCanBeUnlockedWithPickaxe" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,33 +89,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnemyRoomTest.roomExitCanBeUnlocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WarlockTest.canLightRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rooms.*" />
+          <option name="PATTERN" value="players.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
-      <option name="METHOD_NAME" value="roomExitCanBeUnlocked" />
+      <option name="PACKAGE_NAME" value="players" />
+      <option name="MAIN_CLASS_NAME" value="players.WarlockTest" />
+      <option name="METHOD_NAME" value="canLightRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnemyRoomTest.roomStartsLocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WizardTest.canImpersonateGandalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rooms.*" />
+          <option name="PATTERN" value="players.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
-      <option name="METHOD_NAME" value="roomStartsLocked" />
+      <option name="PACKAGE_NAME" value="players" />
+      <option name="MAIN_CLASS_NAME" value="players.WizardTest" />
+      <option name="METHOD_NAME" value="canImpersonateGandalf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="JUnit.WarlockTest.canLightRoom" />
+        <item itemvalue="JUnit.WizardTest.canImpersonateGandalf" />
         <item itemvalue="JUnit.EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive" />
         <item itemvalue="JUnit.All in Dark_Quest-Fantasy_game" />
-        <item itemvalue="JUnit.EnemyRoomTest.roomCanBeUnlockedWithPickaxe" />
-        <item itemvalue="JUnit.EnemyRoomTest.roomExitCanBeUnlocked" />
-        <item itemvalue="JUnit.EnemyRoomTest.roomStartsLocked" />
       </list>
     </recent_temporary>
   </component>
@@ -166,33 +158,33 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1147" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1596204232975">
+    <state x="-1147" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1596294661730">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state x="-1147" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596204232975" />
+    <state x="-1147" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596294661730" />
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596197775329">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596197775329" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1596291419768">
+    <state width="1878" height="224" key="GridCell.Tab.0.bottom" timestamp="1596298842734">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419768" />
+    <state width="1878" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842734" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272448" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1596291419762">
+    <state width="1878" height="224" key="GridCell.Tab.0.center" timestamp="1596298842731">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419762" />
+    <state width="1878" height="224" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842731" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1596291419761">
+    <state width="1878" height="224" key="GridCell.Tab.0.left" timestamp="1596298842730">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419761" />
+    <state width="1878" height="224" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842730" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272446" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1596291419763">
+    <state width="1878" height="224" key="GridCell.Tab.0.right" timestamp="1596298842733">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="226" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419763" />
+    <state width="1878" height="224" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596298842733" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596290666013">
       <screen x="-1920" y="-88" width="1920" height="1080" />

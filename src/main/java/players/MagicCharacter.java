@@ -27,4 +27,8 @@ public abstract class MagicCharacter extends Player implements IAttack {
     public int countSpells(){
         return this.spells.size();
     }
+
+    public ArrayList<Spells> getSpells(){
+        return this.spells;
+    }
 }

@@ -1,5 +1,6 @@
 package players;
 
+import rooms.Room;
 import spells.Spells;
 
 import players.MagicCharacter;
@@ -17,8 +18,8 @@ public class Warlock extends MagicCharacter {
         this.spells = new ArrayList<Spells>();
     }
 
-    public ArrayList<Spells> getSpells(){
-        return this.spells;
+    public void lightRoom(Room room){
+        room.setLight(1.0);
     }
 
 }
