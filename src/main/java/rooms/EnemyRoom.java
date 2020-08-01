@@ -21,4 +21,19 @@ public class EnemyRoom extends Room{
         return this.enemies.size();
     }
 
+    public Boolean checkAllEnemiesDead(){
+        boolean allEnemiesDead = false;
+        for (Enemy enemy: enemies){
+            if (enemy.checkHealth() <= 0){
+                allEnemiesDead = true;
+            }
+        }
+        return allEnemiesDead;
+
+    }
+
+    public Enemy getEnemyByIndex(int index){
+        return enemies.get(index);
+    }
+
 }

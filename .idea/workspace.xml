@@ -2,40 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/game/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/players/DwarfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/armory/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/armory/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/armory/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/armory/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/armory/Pickaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/armory/Pickaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/armory/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/armory/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/armory/ArmoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/armory/ArmoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/players/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/players/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/players/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rooms/TreasureRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rooms/TreasureRoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/armory/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/armory/Axe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/armory/Club.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/armory/Club.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/armory/Pickaxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/armory/Pickaxe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/armory/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/armory/Sword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Dwarf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/w12d3_java_game_lab.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/armory/ArmoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/armory/ArmoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/players/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/BarbarianTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/players/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/KnightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/players/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/PlayerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rooms/TreasureRoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rooms/TreasureRoomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rooms/EnemyRoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rooms/EnemyRoomTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +56,7 @@
       <recent name="players" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Dark_Quest-Fantasy_game">
+  <component name="RunManager" selected="JUnit.EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive">
     <configuration name="All in Dark_Quest-Fantasy_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasureRoomTest.canCollectTreasureIfLight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnemyRoomTest.roomCanBeUnlockedWithPickaxe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +74,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.TreasureRoomTest" />
-      <option name="METHOD_NAME" value="canCollectTreasureIfLight" />
+      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="roomCanBeUnlockedWithPickaxe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasureRoomTest.canGetLightLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
@@ -114,14 +90,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.TreasureRoomTest" />
-      <option name="METHOD_NAME" value="canGetLightLevel" />
+      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="roomCantBeUnlockedWhileEnemiesAlive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasureRoomTest.canSetLight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnemyRoomTest.roomExitCanBeUnlocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
@@ -130,14 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.TreasureRoomTest" />
-      <option name="METHOD_NAME" value="canSetLight" />
+      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="roomExitCanBeUnlocked" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasureRoomTest.cantCollectAllTreasureIfDark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnemyRoomTest.roomStartsLocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.TreasureRoomTest" />
-      <option name="METHOD_NAME" value="cantCollectAllTreasureIfDark" />
+      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="roomStartsLocked" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnemyRoomTest.roomCantBeUnlockedWhileEnemiesAlive" />
         <item itemvalue="JUnit.All in Dark_Quest-Fantasy_game" />
-        <item itemvalue="JUnit.TreasureRoomTest.cantCollectAllTreasureIfDark" />
-        <item itemvalue="JUnit.TreasureRoomTest.canCollectTreasureIfLight" />
-        <item itemvalue="JUnit.TreasureRoomTest.canSetLight" />
-        <item itemvalue="JUnit.TreasureRoomTest.canGetLightLevel" />
+        <item itemvalue="JUnit.EnemyRoomTest.roomCanBeUnlockedWithPickaxe" />
+        <item itemvalue="JUnit.EnemyRoomTest.roomExitCanBeUnlocked" />
+        <item itemvalue="JUnit.EnemyRoomTest.roomStartsLocked" />
       </list>
     </recent_temporary>
   </component>
@@ -198,42 +174,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596197775329" />
-    <state width="1878" height="745" key="GridCell.Tab.0.bottom" timestamp="1596207529318">
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1596291419768">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="745" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596207529318" />
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419768" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272448" />
-    <state width="1878" height="745" key="GridCell.Tab.0.center" timestamp="1596207529316">
+    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1596291419762">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="745" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596207529316" />
+    <state width="1878" height="226" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419762" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="745" key="GridCell.Tab.0.left" timestamp="1596207529315">
+    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1596291419761">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="745" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596207529315" />
+    <state width="1878" height="226" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419761" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272446" />
-    <state width="1878" height="745" key="GridCell.Tab.0.right" timestamp="1596207529317">
+    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1596291419763">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="745" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596207529317" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596291419763" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="107" key="GridCell.Tab.1.bottom" timestamp="1596206737347">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596290666013">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="107" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596206737347" />
-    <state width="1878" height="107" key="GridCell.Tab.1.center" timestamp="1596206737345">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666013" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1596290666012">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="107" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596206737345" />
-    <state width="1878" height="107" key="GridCell.Tab.1.left" timestamp="1596206737344">
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666012" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1596290666011">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="107" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596206737344" />
-    <state width="1878" height="107" key="GridCell.Tab.1.right" timestamp="1596206737346">
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666011" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1596290666012">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="107" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596206737346" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596290666012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

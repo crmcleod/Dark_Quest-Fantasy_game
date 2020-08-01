@@ -15,9 +15,11 @@ public class Dwarf extends MeleeCharacter{
         this.pickaxe = pickaxe;
     }
 
-//    public void usePickAxeToSmashDoor(Pickaxe pickaxe, EnemyRoom enemyRoom){
-//        if (enemyRoom.countEnemies() == 0){
-//        enemyRoom.openExit();}
-//    }
+    public void usePickAxeToSmashDoor(Pickaxe pickaxe, EnemyRoom enemyRoom){
+       if (enemyRoom.checkAllEnemiesDead() == true){
+           enemyRoom.openExit();
+       }
+
+    }
 
 }

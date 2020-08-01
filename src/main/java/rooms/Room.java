@@ -26,7 +26,7 @@ public abstract class Room {
     }
 
     public void openExit(){
-        this.exitIsLocked = true;
+        this.exitIsLocked = false;
     }
 
 }
