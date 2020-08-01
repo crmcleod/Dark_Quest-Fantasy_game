@@ -53,7 +53,7 @@ public class BarbarianTest {
 
     @Test
     public void canRipEnemiesHeadOff(){
-        assertEquals("Eardfasd", barbarian.ripEnemiesHeadOff(orc));
+        assertEquals("EARUGHHHH!!", barbarian.ripEnemiesHeadOff(orc));
         assertEquals(0, orc.checkHealth());
     }
 

@@ -6,7 +6,7 @@ public class Club extends Armory{
         super(damageToDeal);
     }
 
-    public String canAttack(String data) {
-        return "The club has dealt " + data + " damage!";
+    public String canAttack(int data) {
+        return "The club has inflicted " + data + " damage!";
     }
 }

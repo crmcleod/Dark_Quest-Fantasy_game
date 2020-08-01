@@ -8,7 +8,7 @@ public class Axe extends Armory {
     }
 
     public String canAttack(int data) {
-        return "The axe has dealt " + data + " damage!";
+        return "The axe has inflicted " + data + " damage!";
     }
 
 }

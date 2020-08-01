@@ -16,7 +16,7 @@ public class PlayerTest {
     @Before
     public void before(){
         player = new Barbarian("Conan", 500, 0);
-        treasureRoom = new TreasureRoom(200);
+        treasureRoom = new TreasureRoom(1.0, 100, 100);
     }
 
     @Test
@@ -36,6 +36,7 @@ public class PlayerTest {
 
     @Test
     public void canCollectTreasure(){
+//        treasureRoom.setLight(1.0);
         player.collectTreasure(player, treasureRoom);
         assertEquals(200, player.getTreasureChest());
     }

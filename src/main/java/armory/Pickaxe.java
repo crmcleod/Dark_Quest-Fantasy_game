@@ -5,8 +5,8 @@ public class Pickaxe extends Armory{
         super(damageToDeal);
     }
 
-    public String canAttack(String data) {
-        return "The pickaxe has dealt " + data + " damage!";
+    public String canAttack(int data) {
+        return "The pickaxe has inflicted " + data + " damage!";
     }
 
 }

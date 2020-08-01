@@ -8,7 +8,8 @@ public class EnemyRoom extends Room{
 
     private ArrayList<Enemy> enemies;
 
-    public EnemyRoom(){
+    public EnemyRoom(double lightLevel){
+        super(lightLevel);
         this.enemies = new ArrayList<Enemy>();
     }
 

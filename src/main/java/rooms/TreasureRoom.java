@@ -1,25 +1,39 @@
 package rooms;
 
-import players.Player;
-
-import java.util.ArrayList;
-
 public class TreasureRoom extends Room {
 
-    private int treasure;
+    private int visibleTreasure;
+    private int obscuredTreasure;
 
-    public TreasureRoom(int treasure ){
-        this.treasure = treasure;
+    public TreasureRoom(double lightLevel, int visibleTreasure, int obscuredTreasure ){
+        super(lightLevel);
+        this.visibleTreasure = visibleTreasure;
+        this.obscuredTreasure = obscuredTreasure;
     }
 
 
+    public int allowToCollectVisibleTreasure(){
+        return this.visibleTreasure;
+    }
+
+    public int allowToCollectObscuredTreasure(){
+        return this.obscuredTreasure;
+    }
 
     public int allowToCollectTreasure(){
-        return this.treasure;
+        int allTreasure = allowToCollectVisibleTreasure();
+        if(lightLevel >= 1.0) {
+            allTreasure += allowToCollectObscuredTreasure();
+            }
+        return allTreasure;
     }
 
-    public void setTreasure(int number){
-        this.treasure = number;
+
+    public void setVisibleTreasure(int visibleTreasure) {
+        this.visibleTreasure = visibleTreasure;
     }
 
+    public void setObscuredTreasure(int obscuredTreasure) {
+        this.obscuredTreasure = obscuredTreasure;
+    }
 }

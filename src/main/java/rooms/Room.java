@@ -6,8 +6,19 @@ public abstract class Room {
 
     protected Boolean exitIsLocked;
 
-    public Room(){
+    protected double lightLevel;
+
+    public Room(double lightLevel){
         this.exitIsLocked = true;
+        this.lightLevel =lightLevel;
+    }
+
+    public double getLightLevel() {
+        return lightLevel;
+    }
+
+    public void setLight(double light) {
+        this.lightLevel = light;
     }
 
     public Boolean checkExit(){
@@ -17,4 +28,5 @@ public abstract class Room {
     public void openExit(){
         this.exitIsLocked = true;
     }
+
 }

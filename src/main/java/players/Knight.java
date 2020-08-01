@@ -25,8 +25,11 @@ public class Knight extends MeleeCharacter {
 
     @Override
     public void takeDamage(int damageValue) {
+        if (healthPoints+plateArmour.getIncreaseHP() > damageValue) {
         int armouredHealth = this.healthPoints + plateArmour.getIncreaseHP();
-        this.healthPoints = armouredHealth - damageValue;
+        this.healthPoints = armouredHealth - damageValue;}
+        else{
+        this.healthPoints=0;}
 
     }
 }

@@ -46,7 +46,23 @@ public class ArmoryTest {
     @Test
     public void axeCanAttack(){
         int damage = axe.getDamageToDeal();
-        assertEquals("The axe has dealt 5 damage!", axe.canAttack(damage));
+        assertEquals("The axe has inflicted 5 damage!", axe.canAttack(damage));
+    }
+
+    @Test
+    public void swordCanAttack(){
+        int damage = sword.getDamageToDeal();
+        assertEquals("The sword has inflicted 10 damage!", sword.canAttack(damage));
+    }
+
+    @Test
+    public void clubCanAttack(){
+        int damage = club.getDamageToDeal();
+        assertEquals("The club has inflicted 10 damage!", club.canAttack(damage));
+    }
+    @Test
+    public void pickAxeCanAttack(){
+        assertEquals("The pickaxe has inflicted 10 damage!", pickaxe.canAttack(pickaxe.getDamageToDeal()));
     }
 
     @Test

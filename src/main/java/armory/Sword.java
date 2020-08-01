@@ -8,7 +8,7 @@ public class Sword extends Armory {
         super(damageToDeal);
     }
 
-    public String canAttack(String data) {
-        return "The sword has dealt " + data + " damage!";
+    public String canAttack(int data) {
+        return "The sword has inflicted " + data + " damage!";
     }
 }

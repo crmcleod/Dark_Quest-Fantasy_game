@@ -14,8 +14,8 @@ public class EnemyRoomTest {
 
     @Before
     public void before(){
-        orc = orc = new Orc("Kebub", 20);
-        enemyRoom = new EnemyRoom();
+        orc = new Orc("Kebub", 20);
+        enemyRoom = new EnemyRoom(0.5);
     }
 
     @Test
