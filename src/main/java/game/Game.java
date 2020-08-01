@@ -1,5 +1,6 @@
 package game;
 
+import armory.Armory;
 import armory.PlateArmour;
 import enemies.Enemy;
 import players.Player;
@@ -50,7 +51,26 @@ public class Game {
         return this.playableCharacters.size();
     }
 
+    public ArrayList<Player> getPlayableCharacters(){
+        return playableCharacters;
+    }
+
     public int gameRoomCount(){
         return this.rooms.size();
     }
+
+
+//    public void attemptToMoveToNextRoom(){
+//        this.rooms.get(0).addPlayersToRoom(getPlayableCharacters());
+//        int roomIndex = 0;
+//        for (Room room: rooms){
+//            if(!room.checkExit()){
+//                roomIndex++;
+//                this.rooms.get(roomIndex).addPlayersToRoom(getPlayableCharacters());
+//            }
+//        }
+//    }
+
+//    public void movePCsToNextRoom() {
+//    }
 }

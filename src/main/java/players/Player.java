@@ -26,6 +26,10 @@ public abstract class Player implements IAttack{
         return this.healthPoints;
     }
 
+    public void addProtection(int protection){
+        this.healthPoints += protection;
+    }
+
     public int getTreasureChest(){
         return this.treasureChest;
     }

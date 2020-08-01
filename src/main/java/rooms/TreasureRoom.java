@@ -24,6 +24,7 @@ public class TreasureRoom extends Room {
         int allTreasure = allowToCollectVisibleTreasure();
         if(lightLevel >= 1.0) {
             allTreasure += allowToCollectObscuredTreasure();
+            exitIsLocked = false;
             }
         return allTreasure;
     }
