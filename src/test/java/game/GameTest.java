@@ -46,6 +46,7 @@ public class GameTest {
         dwarf =  new Dwarf("Sergeant Cheery", 100, 100, pickaxe);
         orc1 = new Orc("Gadralk", 200);
         orc2 = new Orc("Agrablad", 1000);
+
     }
 
     @Test
@@ -70,6 +71,31 @@ public class GameTest {
         assertEquals(1, game.getPlayerCount());
     }
 
+    @Test
+    public void playersAreOnlyInFirstRoom(){
+        game.addPlayableCharactersToGame(knight);
+        game.addRoomToRooms(enemyRoom);
+        game.addRoomToRooms(treasureRoom);
+        game.attemptToMoveToNextRoom();
+        assertEquals(1, enemyRoom.getPlayerCount());
+        assertEquals(0, treasureRoom.getPlayerCount());
+    }
+
+    @Test
+    public void playersMoveIntoNextRoom(){
+        game.addPlayableCharactersToGame(knight);
+        game.addPlayableCharactersToGame(dwarf);
+        game.addRoomToRooms(enemyRoom);
+        game.addRoomToRooms(treasureRoom);
+        enemyRoom.addEnemyToRoom(orc1);
+        knight.attack(sword, orc1);
+        dwarf.attack(pickaxe, orc1);
+        dwarf.attack(pickaxe, orc1);
+        dwarf.usePickAxeToSmashDoor(pickaxe, enemyRoom);
+        game.attemptToMoveToNextRoom();
+        assertEquals(0, enemyRoom.getPlayerCount());
+        assertEquals(2, treasureRoom.getPlayerCount());
+    }
 
 //    player can currently take money from any room in the game /////////
 //    @Test

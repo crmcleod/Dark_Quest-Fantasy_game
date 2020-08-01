@@ -35,5 +35,12 @@ public abstract class Room {
     public void addPlayersToRoom(ArrayList<Player> players){
         this.players = players;
     }
+    public void removePlayers(){
+        players.clear();
+    }
+
+    public int getPlayerCount(){
+        return players.size();
+    }
 
 }

@@ -60,16 +60,17 @@ public class Game {
     }
 
 
-//    public void attemptToMoveToNextRoom(){
-//        this.rooms.get(0).addPlayersToRoom(getPlayableCharacters());
-//        int roomIndex = 0;
-//        for (Room room: rooms){
-//            if(!room.checkExit()){
-//                roomIndex++;
-//                this.rooms.get(roomIndex).addPlayersToRoom(getPlayableCharacters());
-//            }
-//        }
-//    }
+    public void attemptToMoveToNextRoom(){
+        this.rooms.get(0).addPlayersToRoom(getPlayableCharacters());
+        int roomIndex = 0;
+        for (Room room: rooms){
+            if(!room.checkExit()){
+                roomIndex++;
+                this.rooms.get(roomIndex).addPlayersToRoom(getPlayableCharacters());
+                this.rooms.get((roomIndex-1)).removePlayers();
+            }
+        }
+    }
 
 //    public void movePCsToNextRoom() {
 //    }

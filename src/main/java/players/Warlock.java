@@ -18,6 +18,8 @@ public class Warlock extends MagicCharacter {
         this.spells = new ArrayList<Spells>();
     }
 
+
+//    this should be being implemented through spell
     public void lightRoom(Room room){
         room.setLight(1.0);
     }

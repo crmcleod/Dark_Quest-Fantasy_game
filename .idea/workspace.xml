@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Spells/SpellsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/IProtect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/IProtect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spells/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spells/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spells/Ogre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spells/Ogre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/game/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/game/GameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/players/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/IProtect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/IProtect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Warlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rooms/TreasureRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/TreasureRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spells/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spells/Dragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spells/Ogre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spells/Ogre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/players/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/WizardTest.class" afterDir="false" />
     </list>
@@ -64,7 +59,7 @@
       <recent name="players" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Dark_Quest-Fantasy_game">
+  <component name="RunManager" selected="JUnit.GameTest.playersMoveIntoNextRoom">
     <configuration name="All in Dark_Quest-Fantasy_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.canAddPlayableCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.playersAreOnlyInFirstRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +78,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="game" />
       <option name="MAIN_CLASS_NAME" value="game.GameTest" />
-      <option name="METHOD_NAME" value="canAddPlayableCharacters" />
+      <option name="METHOD_NAME" value="playersAreOnlyInFirstRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.canAddRooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.playersMoveIntoNextRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
         <pattern>
@@ -99,23 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="game" />
       <option name="MAIN_CLASS_NAME" value="game.GameTest" />
-      <option name="METHOD_NAME" value="canAddRooms" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.canPlayThrough2Rooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dark_Quest-Fantasy_game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="game" />
-      <option name="MAIN_CLASS_NAME" value="game.GameTest" />
-      <option name="METHOD_NAME" value="canPlayThrough2Rooms" />
+      <option name="METHOD_NAME" value="playersMoveIntoNextRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,13 +116,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WizardTest.testOgreOffersProtection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dark_Quest-Fantasy_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="players.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="players" />
+      <option name="MAIN_CLASS_NAME" value="players.WizardTest" />
+      <option name="METHOD_NAME" value="testOgreOffersProtection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.playersMoveIntoNextRoom" />
+        <item itemvalue="JUnit.GameTest.playersAreOnlyInFirstRoom" />
         <item itemvalue="JUnit.All in Dark_Quest-Fantasy_game" />
+        <item itemvalue="JUnit.WizardTest.testOgreOffersProtection" />
         <item itemvalue="JUnit.WizardTest.testDragonOffersProtection" />
-        <item itemvalue="JUnit.GameTest.canPlayThrough2Rooms" />
-        <item itemvalue="JUnit.GameTest.canAddPlayableCharacters" />
-        <item itemvalue="JUnit.GameTest.canAddRooms" />
       </list>
     </recent_temporary>
   </component>
@@ -182,42 +177,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596197775329" />
-    <state width="1878" height="762" key="GridCell.Tab.0.bottom" timestamp="1596315919970">
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1596318160192">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="762" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596315919970" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160192" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272448" />
-    <state width="1878" height="762" key="GridCell.Tab.0.center" timestamp="1596315919968">
+    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1596318160190">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="762" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596315919968" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160190" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="762" key="GridCell.Tab.0.left" timestamp="1596315919967">
+    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1596318160189">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="762" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596315919967" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160189" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272446" />
-    <state width="1878" height="762" key="GridCell.Tab.0.right" timestamp="1596315919969">
+    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1596318160191">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="762" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596315919969" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160191" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596313636034">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596318160454">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596313636034" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1596313636033">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160454" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1596318160453">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596313636033" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1596313636032">
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160453" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1596318160453">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596313636032" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1596313636033">
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160453" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1596318160454">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596313636033" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160454" />
     <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1596313422427">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
@@ -233,23 +228,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>85</line>
+          <line>111</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>88</line>
+          <line>114</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>76</line>
+          <line>102</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>79</line>
+          <line>105</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
