@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Exit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/game/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/game/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/IAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -51,11 +54,27 @@
       <recent name="players" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.playersMoveIntoNextRoom">
+  <component name="RunManager" selected="JUnit.EnemyRoomTest.canGenerateRandomNumberOfExits">
     <configuration name="All in Dark_Quest-Fantasy_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnemyRoomTest.canGenerateRandomNumberOfExits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dark_Quest-Fantasy_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rooms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rooms" />
+      <option name="MAIN_CLASS_NAME" value="rooms.EnemyRoomTest" />
+      <option name="METHOD_NAME" value="canGenerateRandomNumberOfExits" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,22 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WizardTest.testDragonOffersProtection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dark_Quest-Fantasy_game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="players.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="players" />
-      <option name="MAIN_CLASS_NAME" value="players.WizardTest" />
-      <option name="METHOD_NAME" value="testDragonOffersProtection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WizardTest.testOgreOffersProtection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dark_Quest-Fantasy_game" />
       <extension name="coverage">
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnemyRoomTest.canGenerateRandomNumberOfExits" />
         <item itemvalue="JUnit.GameTest.playersMoveIntoNextRoom" />
         <item itemvalue="JUnit.All in Dark_Quest-Fantasy_game" />
         <item itemvalue="JUnit.GameTest.playersAreOnlyInFirstRoom" />
         <item itemvalue="JUnit.WizardTest.testOgreOffersProtection" />
-        <item itemvalue="JUnit.WizardTest.testDragonOffersProtection" />
       </list>
     </recent_temporary>
   </component>
@@ -169,48 +172,56 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596197775329" />
-    <state width="1398" height="133" key="GridCell.Tab.0.bottom" timestamp="1596356670673">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1596373851458">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851458" />
     <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591933" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272448" />
-    <state width="1398" height="133" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596356670673" />
-    <state width="1398" height="133" key="GridCell.Tab.0.center" timestamp="1596356670672">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596356812844" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1596373851456">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851456" />
     <state width="1878" height="356" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591932" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1398" height="133" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596356670672" />
-    <state width="1398" height="133" key="GridCell.Tab.0.left" timestamp="1596356670671">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596356812842" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1596373851455">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851455" />
     <state width="1878" height="356" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591932" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272446" />
-    <state width="1398" height="133" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596356670671" />
-    <state width="1398" height="133" key="GridCell.Tab.0.right" timestamp="1596356670672">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596356812840" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1596373851457">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851457" />
     <state width="1878" height="356" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591933" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1398" height="133" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596356670672" />
-    <state width="1398" height="233" key="GridCell.Tab.1.bottom" timestamp="1596355783906">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596356812843" />
+    <state width="1878" height="289" key="GridCell.Tab.1.bottom" timestamp="1596373851638">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851638" />
     <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591935" />
     <state width="1398" height="233" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596355783906" />
-    <state width="1398" height="233" key="GridCell.Tab.1.center" timestamp="1596355783905">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.1.center" timestamp="1596373851637">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851637" />
     <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591934" />
     <state width="1398" height="233" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596355783905" />
-    <state width="1398" height="233" key="GridCell.Tab.1.left" timestamp="1596355783904">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.1.left" timestamp="1596373851636">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851636" />
     <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591934" />
     <state width="1398" height="233" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596355783904" />
-    <state width="1398" height="233" key="GridCell.Tab.1.right" timestamp="1596355783905">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="289" key="GridCell.Tab.1.right" timestamp="1596373851638">
+      <screen x="-1920" y="-120" width="1920" height="1080" />
     </state>
+    <state width="1878" height="289" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-120.1920.1080@-1920.-120.1920.1080" timestamp="1596373851638" />
     <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591935" />
     <state width="1398" height="233" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596355783905" />
     <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1596313422427">
@@ -227,9 +238,9 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

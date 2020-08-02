@@ -3,7 +3,6 @@ package players;
 import armory.Armory;
 import armory.PlateArmour;
 
-import javax.swing.*;
 import java.util.ArrayList;
 
 public class Knight extends MeleeCharacter {

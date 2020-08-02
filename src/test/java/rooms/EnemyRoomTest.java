@@ -70,4 +70,10 @@ public class EnemyRoomTest {
         assertEquals(true, enemyRoom.checkExit());
     }
 
+
+//    Can't test random number of exits. Checked with debugger
+//    @Test public void canGenerateRandomNumberOfExits(){
+//        enemyRoom.generateRandomExits();
+//        assertEquals(2, enemyRoom.getExitCount());
+//    }
 }

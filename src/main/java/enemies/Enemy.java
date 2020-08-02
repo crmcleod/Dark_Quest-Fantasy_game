@@ -41,7 +41,7 @@ public abstract class Enemy {
         return this.weapons.size();
     }
 
-//    public void attack(Armory item, Player player){
-//        player.takeDamage(item.getDamageToDeal());
-//    }
+    public void attack(Armory item, Player player){
+        player.takeDamage(item.getDamageToDeal());
+    }
 }
