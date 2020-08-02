@@ -67,7 +67,7 @@ public class Game {
             if(!room.checkExit()){
                 roomIndex++;
                 this.rooms.get(roomIndex).addPlayersToRoom(getPlayableCharacters());
-                this.rooms.get((roomIndex-1)).removePlayers();
+//                this.rooms.get((roomIndex-1)).removePlayers();
             }
         }
     }

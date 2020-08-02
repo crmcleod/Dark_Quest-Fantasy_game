@@ -11,6 +11,7 @@ import org.junit.Test;
 import players.Barbarian;
 import players.Dwarf;
 import players.Knight;
+import players.Warlock;
 import rooms.EnemyRoom;
 import rooms.Room;
 import rooms.TreasureRoom;
@@ -26,6 +27,7 @@ public class GameTest {
     Knight knight;
     Barbarian barbarian;
     Dwarf dwarf;
+    Warlock warlock;
     Orc orc1;
     Orc orc2;
     Sword sword;
@@ -44,6 +46,7 @@ public class GameTest {
         knight = new Knight("Vimes", 100, 10, plateArmour);
         barbarian = new Barbarian("Conan", 200, 1);
         dwarf =  new Dwarf("Sergeant Cheery", 100, 100, pickaxe);
+        warlock = new Warlock("Zachbran", 100,100);
         orc1 = new Orc("Gadralk", 200);
         orc2 = new Orc("Agrablad", 1000);
 
@@ -83,18 +86,26 @@ public class GameTest {
 
     @Test
     public void playersMoveIntoNextRoom(){
+        TreasureRoom treasureRoom1 = new TreasureRoom(0.5, 100, 100);
         game.addPlayableCharactersToGame(knight);
         game.addPlayableCharactersToGame(dwarf);
         game.addRoomToRooms(enemyRoom);
         game.addRoomToRooms(treasureRoom);
+        game.addRoomToRooms(treasureRoom1);
         enemyRoom.addEnemyToRoom(orc1);
+        game.attemptToMoveToNextRoom();
         knight.attack(sword, orc1);
         dwarf.attack(pickaxe, orc1);
         dwarf.attack(pickaxe, orc1);
         dwarf.usePickAxeToSmashDoor(pickaxe, enemyRoom);
         game.attemptToMoveToNextRoom();
-        assertEquals(0, enemyRoom.getPlayerCount());
+        warlock.lightRoom(treasureRoom);
+        knight.collectTreasure(knight, treasureRoom);
+        game.attemptToMoveToNextRoom();
+        assertEquals(2, enemyRoom.getPlayerCount());
         assertEquals(2, treasureRoom.getPlayerCount());
+        assertEquals(2, treasureRoom1.getPlayerCount());
+        assertEquals(true, treasureRoom1.checkExit());
     }
 
 //    player can currently take money from any room in the game /////////

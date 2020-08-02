@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spells/Ogre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spells/Ogre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/game/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/game/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/players/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Warlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spells/Ogre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spells/Ogre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/game/GameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/players/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/WizardTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,8 +127,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GameTest.playersMoveIntoNextRoom" />
-        <item itemvalue="JUnit.GameTest.playersAreOnlyInFirstRoom" />
         <item itemvalue="JUnit.All in Dark_Quest-Fantasy_game" />
+        <item itemvalue="JUnit.GameTest.playersAreOnlyInFirstRoom" />
         <item itemvalue="JUnit.WizardTest.testOgreOffersProtection" />
         <item itemvalue="JUnit.WizardTest.testDragonOffersProtection" />
       </list>
@@ -177,42 +169,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596197775329" />
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1596318160192">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom" timestamp="1596356670673">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160192" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591933" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272448" />
-    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1596318160190">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596356670673" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center" timestamp="1596356670672">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160190" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591932" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1596318160189">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596356670672" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left" timestamp="1596356670671">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160189" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591932" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272446" />
-    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1596318160191">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596356670671" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right" timestamp="1596356670672">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160191" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591933" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@0.0.1440.900" timestamp="1596200272447" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1596318160454">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596356670672" />
+    <state width="1398" height="233" key="GridCell.Tab.1.bottom" timestamp="1596355783906">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160454" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1596318160453">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591935" />
+    <state width="1398" height="233" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596355783906" />
+    <state width="1398" height="233" key="GridCell.Tab.1.center" timestamp="1596355783905">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160453" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1596318160453">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591934" />
+    <state width="1398" height="233" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596355783905" />
+    <state width="1398" height="233" key="GridCell.Tab.1.left" timestamp="1596355783904">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160453" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1596318160454">
-      <screen x="-1920" y="-88" width="1920" height="1080" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591934" />
+    <state width="1398" height="233" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596355783904" />
+    <state width="1398" height="233" key="GridCell.Tab.1.right" timestamp="1596355783905">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318160454" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1596318591935" />
+    <state width="1398" height="233" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596355783905" />
     <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1596313422427">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
@@ -228,38 +228,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/game/GameTest.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="46" />
+          <line>100</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
